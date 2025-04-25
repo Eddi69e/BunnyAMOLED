@@ -1,12 +1,13 @@
 {
-  "name": "Samsung AMOLED Clean",
-  "description": "Inspired by Samsung Keyboard – Pure black & white, ultra AMOLED-friendly.",
+  "name": "Samsung AMOLED Clean (Vendetta-Ready)",
+  "description": "Pure black & white AMOLED, now compatible with Vendetta/BunnyXposed loaders.",
   "authors": [
     {
       "name": "@.androidy",
       "id": "499712446735581204"
     }
   ],
+  "spec": 2,
   "semanticColors": {
     "HEADER_PRIMARY": ["#FFFFFF"],
     "HEADER_SECONDARY": ["#D3D3D3"],
@@ -16,26 +17,33 @@
     "INTERACTIVE_NORMAL": ["#CCCCCC"],
     "INTERACTIVE_ACTIVE": ["#FFFFFF"],
     "INTERACTIVE_MUTED": ["#666666"],
+
     "BACKGROUND_PRIMARY": ["#000000"],
     "BACKGROUND_SECONDARY": ["#000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#000000"],    // DM list bg now pure black
+    "BACKGROUND_SECONDARY_ALT": ["#000000"],
     "BACKGROUND_TERTIARY": ["#000000"],
-    "BACKGROUND_ACCENT": ["#101010"],
+    "BACKGROUND_ACCENT": ["#08080A"],             // from working theme
     "BACKGROUND_FLOATING": ["#000000"],
     "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
     "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
     "BACKGROUND_NESTED_FLOATING": ["#000000"],
-    "BACKGROUND_MESSAGE_HOVER": ["#121212"],     // chat hover
-    "BACKGROUND_MODIFIER_HOVER": ["#0F0F0F"],    // list-item hover
-    "BACKGROUND_MODIFIER_ACTIVE": ["#1a1a1a"],   // list-item active
-    "BACKGROUND_MODIFIER_SELECTED": ["#0A0A0A"], // selected
+
+    "BACKGROUND_MESSAGE_HOVER": ["#121212"],
+    "BACKGROUND_MODIFIER_HOVER": ["#0F0F0F"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#1A1A1A"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#0A0A0A"],
     "BACKGROUND_MODIFIER_ACCENT": ["#000000"],
+
     "CHANNELTEXTAREA_BACKGROUND": ["#000000"],
     "CHANNELS_DEFAULT": ["#888888"],
-    "TEXT_DANGER": ["#e20303"],
-    "KEYBOARD": ["#000000"],
     "CHANNEL_ICON": ["#BBBBBB"],
-    "CHAT_BACKGROUND": ["#000000"]
+    "CHAT_BACKGROUND": ["#000000"],
+
+    "SPOILER_HIDDEN_BACKGROUND": ["#1E1F22"],    // from working theme
+    "SPOILER_REVEALED_BACKGROUND": ["#232428"],  // from working theme
+
+    "TEXT_DANGER": ["#E20303"],
+    "KEYBOARD": ["#000000"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
@@ -44,19 +52,34 @@
     "PRIMARY_360": "#CCCCCC",
     "PRIMARY_400": "#CCCCCC",
     "PRIMARY_500": "#CCCCCC",
+    "PRIMARY_560": "#08080A",  // pulled from working theme
     "PRIMARY_600": "#000000",
     "PRIMARY_630": "#000000",
-    "PRIMARY_660": "#000000",
-    "PRIMARY_700": "#000000",
-    "PRIMARY_800": "#000000",
-    "BRAND_260": "#5865f2",
-    "BRAND_360": "#5865f2",
-    "BRAND_500": "#5865f2",
-    "BRAND_560": "#5865f2",
+    "PRIMARY_660": "#08080A",  // from working theme
+    "PRIMARY_700": "#08080A",
+    "PRIMARY_800": "#08080A",
+
+    "BRAND_260": "#5865F2",
+    "BRAND_360": "#5865F2",
+    "BRAND_500": "#5865F2",
+    "BRAND_560": "#5865F2",
+
     "WHITE_500": "#FFFFFF",
-    "YELLOW_300": "#f0d31b",
-    "GREEN_360": "#23a55a",
-    "RED_400": "#f23f43"
+    "YELLOW_300": "#F0D31B",
+    "GREEN_360": "#23A55A",
+    "RED_400": "#F23F43",
+
+    // Plum keys from working theme (optional—keep if you want consistency in pop-ups)
+    "PLUM_15": "#08080A",
+    "PLUM_17": "#000000",
+    "PLUM_18": "#08080A",
+    "PLUM_19": "#08080A",
+    "PLUM_20": "#000000",
+    "PLUM_23": "#000000",
+    "PLUM_24": "#08080A"
   },
-  "spec": 2
+  "plus": {
+    "version": "0",
+    "iconpack": "md3"
+  }
 }
