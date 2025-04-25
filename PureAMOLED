@@ -1,9 +1,9 @@
 {
   "name": "Samsung AMOLED Clean",
-  "description": "Inspired by Samsung Keyboard – Pure black & white, AMOLED perfection.",
+  "description": "Inspired by Samsung Keyboard – Pure black & white, ultra AMOLED-friendly.",
   "authors": [
     {
-      "name": "@gr4vey4rd",
+      "name": "@.androidy",
       "id": "499712446735581204"
     }
   ],
@@ -18,7 +18,7 @@
     "INTERACTIVE_MUTED": ["#666666"],
     "BACKGROUND_PRIMARY": ["#000000"],
     "BACKGROUND_SECONDARY": ["#000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#0A0A0A"],
+    "BACKGROUND_SECONDARY_ALT": ["#050505"],
     "BACKGROUND_TERTIARY": ["#000000"],
     "BACKGROUND_ACCENT": ["#101010"],
     "BACKGROUND_FLOATING": ["#000000"],
@@ -26,9 +26,9 @@
     "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
     "BACKGROUND_NESTED_FLOATING": ["#000000"],
     "BACKGROUND_MESSAGE_HOVER": ["#121212"],
-    "BACKGROUND_MODIFIER_HOVER": ["#1a1a1a"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#1f1f1f"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#1a1a1a"],
+    "BACKGROUND_MODIFIER_HOVER": ["#0F0F0F"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#1a1a1a"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#0A0A0A"],
     "BACKGROUND_MODIFIER_ACCENT": ["#000000"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000"],
     "CHANNELS_DEFAULT": ["#888888"],
@@ -55,9 +55,4 @@
     "BRAND_500": "#5865f2",
     "BRAND_560": "#5865f2",
     "WHITE_500": "#FFFFFF",
-    "YELLOW_300": "#f0d31b",
-    "GREEN_360": "#23a55a",
-    "RED_400": "#f23f43"
-  },
-  "spec": 2
-}
+    "YELLOW
