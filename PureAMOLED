@@ -1,46 +1,62 @@
 {
-  "name": "Samsung AMOLED Clean (Vendetta-Ready)",
-  "description": "Pure black & white AMOLED, now compatible with Vendetta/BunnyXposed.",
+  "name": "Samsung AMOLED",
+  "description": "Fixed for Discord v310+.",
   "authors": [
     {
       "name": "@.androidy",
       "id": "499712446735581204"
+    },
+    {
+      "name": "Eddie",
+      "id": "YOUR_ID_HERE"
     }
   ],
   "spec": 2,
   "semanticColors": {
     "HEADER_PRIMARY": ["#FFFFFF"],
     "TEXT_NORMAL":    ["#FFFFFF"],
-    "TEXT_MUTED":     ["#AAAAAA"],
+    "TEXT_MUTED":     ["#B9BBBE"],
     "BACKGROUND_PRIMARY":       ["#000000"],
     "BACKGROUND_SECONDARY":     ["#000000"],
     "BACKGROUND_SECONDARY_ALT": ["#000000"],
-    "BACKGROUND_ACCENT":        ["#08080A"],
+    "BACKGROUND_TERTIARY":      ["#000000"],
+    "BACKGROUND_ACCENT":        ["#000000"],
+    "BACKGROUND_FLOATING":      ["#000000"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
     "BACKGROUND_MESSAGE_HOVER": ["#121212"],
     "BACKGROUND_MODIFIER_HOVER":["#0F0F0F"],
-    "BACKGROUND_MODIFIER_SELECTED":["#0A0A0A"],
+    "BACKGROUND_MODIFIER_SELECTED":["#1A1A1A"],
     "CHANNELTEXTAREA_BACKGROUND":["#000000"],
-    "CHANNELS_DEFAULT":         ["#888888"],
-    "CHANNEL_ICON":             ["#BBBBBB"],
+    "CHANNELS_DEFAULT":         ["#8E9297"],
+    "CHANNEL_ICON":             ["#B9BBBE"],
     "CHAT_BACKGROUND":          ["#000000"],
-    "SPOILER_HIDDEN_BACKGROUND":["#1E1F22"],
-    "SPOILER_REVEALED_BACKGROUND":["#232428"]
+    "SPOILER_HIDDEN_BACKGROUND":["#202225"],
+    "SPOILER_REVEALED_BACKGROUND":["#292B2F"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_360": "#CCCCCC",
-    "PRIMARY_560": "#08080A",
+    "PRIMARY_200": "#E3E5E8",
+    "PRIMARY_300": "#C7CCD1",
+    "PRIMARY_360": "#B9BBBE",
+    "PRIMARY_400": "#96989D",
+    "PRIMARY_500": "#72767D",
+    "PRIMARY_560": "#000000",
     "PRIMARY_600": "#000000",
-    "PRIMARY_660": "#08080A",
-    "PRIMARY_700": "#08080A",
-    "PRIMARY_800": "#08080A",
+    "PRIMARY_630": "#000000",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_800": "#000000",
+    "PRIMARY_860": "#000000",
+    "PRIMARY_900": "#000000",
     "WHITE_500":   "#FFFFFF",
     "BRAND_360":   "#5865F2",
     "YELLOW_300":  "#F0D31B",
     "GREEN_360":   "#23A55A",
     "RED_400":     "#F23F43",
-    "PLUM_15":     "#08080A",
-    "PLUM_17":     "#000000"
+    "PLUM_15":     "#000000",
+    "PLUM_17":     "#000000",
+    "PLUM_20":     "#000000"
   },
   "plus": {
     "version": "0",
