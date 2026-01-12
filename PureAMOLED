@@ -1,6 +1,6 @@
 {
-  "name": "Samsung AMOLED v2",
-  "description": "Pure blacks, Discord v310+.",
+  "name": "Samsung AMOLED (Void)",
+  "description": "AMOLED Theme.",
   "authors": [
     {
       "name": "@.androidy",
@@ -46,10 +46,14 @@
 
     "CARD_PRIMARY_BG": ["#000000"],
     "CARD_SECONDARY_BG": ["#000000"],
+    "CARD_PRIMARY_FOREGROUND": ["#FFFFFF"],
+    "CARD_SECONDARY_FOREGROUND": ["#FFFFFF"],
+    
     "BG_BASE_PRIMARY": ["#000000"],
     "BG_BASE_SECONDARY": ["#000000"],
     "BG_BASE_TERTIARY": ["#000000"],
     "BG_BACKDROP": ["#000000"],
+    
     "MODAL_BACKGROUND": ["#000000"],
     "MODAL_FOOTER_BACKGROUND": ["#000000"],
     "SEARCH_POPNOUT_BG": ["#000000"],
@@ -57,26 +61,34 @@
     "BG_SURFACE_OVERLAY": ["#000000"],
     "BG_SURFACE_OVERLAY_TMP": ["#000000"],
     "BG_SURFACE_RAISED": ["#000000"],
-    "BG_MOD_STRONG": ["#000000"],
-    "BG_MOD_SUBTLE": ["#000000"],
-    "SURFACE_TIER_1": ["#000000"],
-    "SURFACE_TIER_2": ["#000000"]
+    
+    "PANEL_BG": ["#000000"],
+    "ACTIVITY_CARD_BACKGROUND": ["#000000"],
+    "USER_PROFILE_HEADER_OVERLAY_BACKGROUND": ["#000000"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
     "PRIMARY_200": "#E3E5E8",
     "PRIMARY_300": "#C7CCD1",
+    "PRIMARY_330": "#B9BBBE",
     "PRIMARY_360": "#B9BBBE",
     "PRIMARY_400": "#96989D",
+    "PRIMARY_430": "#96989D",
+    "PRIMARY_460": "#96989D",
     "PRIMARY_500": "#72767D",
+    "PRIMARY_530": "#000000",
     "PRIMARY_560": "#000000",
     "PRIMARY_600": "#000000",
     "PRIMARY_630": "#000000",
     "PRIMARY_660": "#000000",
     "PRIMARY_700": "#000000",
+    "PRIMARY_730": "#000000",
+    "PRIMARY_760": "#000000",
     "PRIMARY_800": "#000000",
+    "PRIMARY_830": "#000000",
     "PRIMARY_860": "#000000",
     "PRIMARY_900": "#000000",
+    
     "WHITE_500":   "#FFFFFF",
     "BRAND_360":   "#5865F2",
     "YELLOW_300":  "#F0D31B",
