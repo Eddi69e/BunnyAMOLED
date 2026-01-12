@@ -1,13 +1,13 @@
 {
   "name": "Samsung AMOLED v2",
-  "description": "True Black fix for Discord v310+ (Revenge/Vendetta).",
+  "description": "Pure blacks, Discord v310+.",
   "authors": [
     {
       "name": "@.androidy",
       "id": "499712446735581204"
     },
     {
-      "name": "Frost (Fix)",
+      "name": "Frost (Final Fix)",
       "id": "0"
     }
   ],
@@ -56,7 +56,15 @@
     "BG_BACKDROP": ["#000000"],
     "MODAL_BACKGROUND": ["#000000"],
     "MODAL_FOOTER_BACKGROUND": ["#000000"],
-    "SEARCH_POPNOUT_BG": ["#000000"]
+    "SEARCH_POPNOUT_BG": ["#000000"],
+    
+    "BG_SURFACE_OVERLAY": ["#000000"],
+    "BG_SURFACE_OVERLAY_TMP": ["#000000"],
+    "BG_SURFACE_RAISED": ["#000000"],
+    "BG_MOD_STRONG": ["#000000"],
+    "BG_MOD_SUBTLE": ["#000000"],
+    "SURFACE_TIER_1": ["#000000"],
+    "SURFACE_TIER_2": ["#000000"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
