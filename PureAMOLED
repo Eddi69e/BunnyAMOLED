@@ -14,8 +14,8 @@
     "TEXT_MUTED":     ["#AAAAAA"],
     "BACKGROUND_PRIMARY":       ["#000000"],
     "BACKGROUND_SECONDARY":     ["#000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#000000"],  // DM list pure black
-    "BACKGROUND_ACCENT":        ["#08080A"],  // from your working theme
+    "BACKGROUND_SECONDARY_ALT": ["#000000"],
+    "BACKGROUND_ACCENT":        ["#08080A"],
     "BACKGROUND_MESSAGE_HOVER": ["#121212"],
     "BACKGROUND_MODIFIER_HOVER":["#0F0F0F"],
     "BACKGROUND_MODIFIER_SELECTED":["#0A0A0A"],
