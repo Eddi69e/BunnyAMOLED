@@ -1,10 +1,14 @@
 {
-  "name": "Samsung AMOLED",
-  "description": "Fixed for Discord v310+.",
+  "name": "Samsung AMOLED v2",
+  "description": "True Black fix for Discord v310+ (Revenge/Vendetta).",
   "authors": [
     {
       "name": "@.androidy",
       "id": "499712446735581204"
+    },
+    {
+      "name": "Frost (Fix)",
+      "id": "0"
     }
   ],
   "spec": 2,
@@ -16,6 +20,7 @@
     "INTERACTIVE_NORMAL": ["#FFFFFF"],
     "INTERACTIVE_ACTIVE": ["#FFFFFF"],
     "INTERACTIVE_MUTED":  ["#4F545C"],
+    
     "BACKGROUND_PRIMARY":       ["#000000"],
     "BACKGROUND_SECONDARY":     ["#000000"],
     "BACKGROUND_SECONDARY_ALT": ["#000000"],
@@ -25,12 +30,14 @@
     "BACKGROUND_NESTED_FLOATING": ["#000000"],
     "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
     "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
+    
     "LAYER_BACKGROUND":         ["#000000"],
     "BACKGROUND_MESSAGE_HOVER": ["#121212"],
     "BACKGROUND_MODIFIER_HOVER": ["#121212"],
     "BACKGROUND_MODIFIER_ACTIVE": ["#1A1A1A"],
     "BACKGROUND_MODIFIER_SELECTED":["#1A1A1A"],
     "BACKGROUND_MODIFIER_ACCENT": ["#000000"],
+    
     "BUTTON_SECONDARY_BACKGROUND": ["#000000"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000"],
     "NAVIGATOR_HEADER":           ["#000000"],
@@ -39,7 +46,17 @@
     "CHAT_BACKGROUND":          ["#000000"],
     "SPOILER_HIDDEN_BACKGROUND":["#202225"],
     "SPOILER_REVEALED_BACKGROUND":["#292B2F"],
-    "INPUT_BACKGROUND": ["#000000"]
+    "INPUT_BACKGROUND": ["#000000"],
+
+    "CARD_PRIMARY_BG": ["#000000"],
+    "CARD_SECONDARY_BG": ["#000000"],
+    "BG_BASE_PRIMARY": ["#000000"],
+    "BG_BASE_SECONDARY": ["#000000"],
+    "BG_BASE_TERTIARY": ["#000000"],
+    "BG_BACKDROP": ["#000000"],
+    "MODAL_BACKGROUND": ["#000000"],
+    "MODAL_FOOTER_BACKGROUND": ["#000000"],
+    "SEARCH_POPNOUT_BG": ["#000000"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
